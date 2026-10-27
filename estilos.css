@@ -1,0 +1,271 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica;
+  font-size: 16px;
+  line-height: 24px;
+  background-color: #fff9f1;
+  color: #333;
+}
+
+.ancho {
+  width: 1200px;
+  margin: auto;
+  /* border: 2px red solid; */
+}
+.centrar {
+  text-align: center;
+}
+
+.izq {
+  text-align: left;
+}
+
+.der {
+  text-align: right;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.contenedor_linea {
+  background-color:#ff3281 ;
+  height: 15px;
+  margin-bottom: 5px;
+}
+
+.cont_redes a {
+  margin-right: 10px;
+}
+
+.cont_logo {
+  width: 800px;
+  /* border: 2px green solid; */
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 86px
+}
+
+.cont_redes {
+  /* border: 2px orange solid; */
+  width: 300px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.padding {
+  padding: 10px;
+}
+
+.contenedor_menu a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 10px;
+  /* border: 2px green solid; */
+  margin-right: 110px;
+  margin-left: 50px;
+
+
+
+}
+
+.contenedor_menu {
+  border: 4px black solid;
+  margin-top: 5px;
+}
+
+.contenedor_menu a:hover {
+  text-decoration: underline;
+  
+}
+
+.contenedor_img {
+  background-image: url(imagenes/fondopiedras.jpg);
+  height: 530px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  text-align: center;
+  padding-top: 160px; 
+  
+  
+}
+
+/* .cont_info {
+  border: 2px blue solid;
+  
+} */
+
+.padd2 {
+  padding: 20px;
+}
+
+.cont_info h1 {
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 35px;
+
+}
+
+.cont_info p {
+  color: white;
+}
+
+.a1 {
+  text-decoration: none;
+  padding: 20px;
+  /* border: 2px green solid; */
+  color: white;
+  background-color: #ff3281;
+  margin-right: 10px;
+  
+}
+
+.a2 {
+  text-decoration: none;
+  padding: 20px;
+  border: 2px #ff3281 solid;
+  color: white;
+  background-color: transparent;
+  margin-right: 10px;
+}
+
+.cont_infvelas {
+  /* border: 2px orange solid; */
+  text-align: left;
+  width: 580px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.cont_infvelas p {
+  line-height: 35px;
+}
+
+.velas {
+  width: 550px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.contenedor_velas {
+  background-color: white;
+}
+
+.padd3 {
+  padding: 40px;
+}
+
+.imgar {
+  /* border: 2px blue solid; */
+  width: 500px;
+  display: inline-block;
+  vertical-align: top;
+}
+
+.text {
+  width: 600px;
+  display: inline-block;
+  vertical-align: top;
+}
+.text p {
+  color: gray;
+}
+
+.imgar img {
+  border-radius: 20px;
+}
+
+.contp3 {
+  background-color: white;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.rosa {
+  color: #ff3281;
+  font-weight: bold;
+}
+
+label {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+}
+
+input {
+  padding: 10px 130px;
+  border-radius: 5px;
+  border: 2px gray solid;
+  display: block;
+  
+}
+
+button {
+  padding: 15px 70px;
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  border: none;
+  font-weight: bold; }
+
+form {
+  border: 4px #ff3281 solid;
+  padding: 10px;
+  width: 450px;
+  margin-top: 15px;
+}
+
+.cont_infcont {
+  width: 500px;
+  /* border: 2px orange solid; */
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.video iframe{
+  width: 600px;
+  height: 338px;
+  border-radius: 15px;
+  margin-right: 15px;
+  
+  
+}
+
+.video {
+  width: 500px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.bc {
+  display: block;
+}
+
+.tm {
+  font-size: 25px;
+}
+.contlf {
+  width: 500px;
+  display: inline-block;
+  vertical-align: middle;
+}
+.nombre {
+  width: 500px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+input:focus {
+  background-color: #ff32813f;
+}
